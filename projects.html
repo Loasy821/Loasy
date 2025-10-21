@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" class="active">Projects</a>
+    </nav>
+  </header>
+
+  <section class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A clean personal site made with HTML, CSS, and JavaScript to showcase my skills.</p>
+      </div>
+      <div class="project">
+        <h3>Weather App</h3>
+        <p>Displays live weather updates using OpenWeather API and modern UI.</p>
+      </div>
+      <div class="project">
+        <h3>Mini Game</h3>
+        <p>A browser-based game made entirely in JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2025 Your Name. All Rights Reserved.</footer>
+
+  <script>
+    window.addEventListener("scroll", () => {
+      const header = document.querySelector("header");
+      header.classList.toggle("scrolled", window.scrollY > 50);
+    });
+  </script>
+</body>
+</html>
