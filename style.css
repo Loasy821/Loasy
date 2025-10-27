@@ -1,5 +1,6 @@
 /* --- BUTTON GROUP IN HERO --- */
 .button-group {
+  color: #58a6ff;
   display: flex;
   gap: 20px;
   margin-top: 20px;
